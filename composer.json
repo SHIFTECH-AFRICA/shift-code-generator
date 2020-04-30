@@ -9,8 +9,16 @@
             "email": "info@shiftechafrica.com"
         }
     ],
+    "keywords": [
+        "mpesa-like-code",
+        "mpesa",
+        "laravel",
+        "code-generator",
+        "transactionId"
+    ],
     "minimum-stability": "dev",
     "require": {
+        "illuminate/support": "^5.8|^6.0|^7.0",
         "webpatser/laravel-uuid": "^3.0"
     },
     "autoload": {
