@@ -15,7 +15,7 @@ class CreateShiftCodeGeneratorsTable extends Migration
     {
         Schema::create('shift_code_generators', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->string('name')->default(config('shift-code-generator.name'));
+            $table->string('name');
             $table->timestamps();
         });
     }

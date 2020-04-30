@@ -29,7 +29,7 @@ class ShiftCodeGeneratorServiceProvider extends ServiceProvider
          * ---------------------------
          */
         $this->mergeConfigFrom(
-            __DIR__ . '/config/shift-code-generator.php', 'shiftcodegenerator'
+            __DIR__ . '/config/shift-code-generator.php', 'shift-code-generator'
         );
 
         /**
@@ -50,6 +50,14 @@ class ShiftCodeGeneratorServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/database/migrations' => database_path('migrations'),
         ], 'migrations');
+
+        /**
+         * ---------------------------------------------
+         * Load the factory for seeding the model
+         * ---------------------------------------------
+         */
+        $this->loadFactoriesFrom(__DIR__ . '/Seeds/ShiftCodeGeneratorFactory.php');
+
     }
 
     /**
