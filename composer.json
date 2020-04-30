@@ -1,0 +1,26 @@
+{
+    "name": "shiftechafrica/shift-code-generator",
+    "description": "The package generates unique codes depending on the day,month and year.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shiftechafrica",
+            "email": "info@shiftechafrica.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ShiftechAfrica\\CodeGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ShiftechAfrica\\CodeGenerator\\ShiftCodeGenerator"
+            ]
+        }
+    }
+}
