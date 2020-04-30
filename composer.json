@@ -1,6 +1,6 @@
 {
     "name": "shiftechafrica/shift-code-generator",
-    "description": "The package generates unique codes depending on the day,month and year.",
+    "description": "This package generates code in relation to year, date and month. For instance it uses A - Z names for months.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "webpatser/laravel-uuid": "^3.0"
+    },
     "autoload": {
         "psr-4": {
             "ShiftechAfrica\\CodeGenerator\\": "src/"
@@ -19,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ShiftechAfrica\\CodeGenerator\\ShiftCodeGenerator"
+                "ShiftechAfrica\\CodeGenerator\\ShiftCodeGeneratorServiceProvider"
             ]
         }
     }
