@@ -1,7 +1,7 @@
-# <p align="center"><a href="https://tpay.co.ke/" target="_blank"><img src="https://shiftechafrica.com/img/logo.png"></a></p>
+# <p align="center"><a href="https://shiftechafrica.com/" target="_blank"><img width="100" src="https://shiftechafrica.com/img/logo.png"></a></p>
 
 <p align="center">
-  <b>Make It Happen</b><br>
+  <b>Be in the next level</b><br>
   <a href="https://github.com/SHIFTECH-AFRICA/shift-code-generator/issues">
   <img src="https://img.shields.io/github/issues/SHIFTECH-AFRICA/shift-code-generator.svg">
   </a>
