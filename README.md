@@ -22,7 +22,7 @@
 </p>
 
 ## Introduction
-This package generates code in relation to year, date and month. For instance, it uses A - Z letters for months. For example *0E1NKJDQVW* code *0* rep number of years, *E* rep month and *1* rep date while *NKJDQVW* is a random string.
+This package generates code in relation to year, date and month. For instance, it uses A - Z letters for months. For example *1E1NKJDQVW* code *1* rep number of years, *E* rep month and *1* rep date while *NKJDQVW* is a random string.
 This library mimics the *mpesa-transaction-id*.
 
 ## Installing
