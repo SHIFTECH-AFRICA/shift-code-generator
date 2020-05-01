@@ -157,6 +157,12 @@ trait CheckList
     {
         $to = now()->createFromFormat('Y-m-d H:s:i', ShiftCodeGenerator::query()->first()->created_at);
         $from = now()->createFromFormat('Y-m-d H:s:i', today());
-        return $to->diffInYears($from); // Output: 1
+        $years = $to->diffInYears($from);
+
+        // check if years is 0
+        if ($years <= 0) {
+            return 1;
+        }
+        return $to->diffInYears($from) + 1; // Output: 1
     }
 }
