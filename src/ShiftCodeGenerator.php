@@ -31,6 +31,6 @@ class ShiftCodeGenerator
         $d_letter = $this->get_date_letter_representative();
 
         // return the code generated
-        return $years.$m_letter.$d_letter.Str::upper(Str::random($codeLength));
+        return $years . $m_letter . $d_letter . Str::upper(Str::random($codeLength));
     }
 }
