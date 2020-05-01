@@ -103,7 +103,7 @@ How to generate the code...
 [shift-code-generator-repo]: https://github.com/SHIFTECH-AFRICA/shift-code-generator.git
 
 ## Security Vulnerabilities
- For any security vulnerabilities, please email to [Shiftech Africa](mailto:info@shiftechafrica.com).
+ For any security vulnerabilities, please email to [Shiftech Africa](mailto:bugs@shiftechafrica.com).
  
 ## License
  This package is open-source, licensed under the [MIT license](https://opensource.org/licenses/MIT).
