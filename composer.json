@@ -16,7 +16,7 @@
         "code-generator",
         "transactionId"
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "illuminate/support": "^5.8|^6.0|^7.0",
         "webpatser/laravel-uuid": "^3.0"
