@@ -1,6 +1,6 @@
 {
     "name": "shiftechafrica/shift-code-generator",
-    "description": "This package generates code in relation to year, date and month. For instance it uses A - Z names for months.",
+    "description": "This package generates code in relation to year, date and month. For instance, it uses A - Z names for months.",
     "type": "library",
     "license": "MIT",
     "authors": [
