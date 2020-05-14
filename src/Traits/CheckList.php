@@ -155,7 +155,11 @@ trait CheckList
      */
     private function get_number_of_years()
     {
-        $to = now()->createFromFormat('Y-m-d H:s:i', ShiftCodeGenerator::query()->first()->created_at);
+        if (config('shift-code-generator.use_db')) {
+            $to = now()->createFromFormat('Y-m-d H:s:i', ShiftCodeGenerator::query()->first()->created_at);
+        } else {
+            $to = now()->createFromFormat('Y-m-d H:s:i', config('shift-code-generator.year'));
+        }
         $from = now()->createFromFormat('Y-m-d H:s:i', today());
         $years = $to->diffInYears($from);
 
