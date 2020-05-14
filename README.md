@@ -55,6 +55,13 @@ Then run this, to get the *config/shift-code-generator.php* for your own configu
 # run this to get the configuration file at config/shift-code-generator.php <-- read through it -->
 php artisan vendor:publish --provider="ShiftechAfrica\CodeGenerator\ShiftCodeGeneratorServiceProvider"
 ```
+A *config/shift-code-generator.php* file will be created, so if you want to use the database follow the next step on how to seed. The following add to your .env file.
+
+```php
+  YEAR_OF_START=2020 #pass the year that your application is launched
+  USE_DATABASE=false #pass true if you want to use the database and false to use your default YEAR_OF_START
+```
+
 
 You will have to add this in the *database/seeds/DatabaseSeeder*. To ensure we seed some data to set the default dates that will be used in generating the codes:
 
