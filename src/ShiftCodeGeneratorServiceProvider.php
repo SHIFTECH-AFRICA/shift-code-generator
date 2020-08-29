@@ -38,7 +38,7 @@ class ShiftCodeGeneratorServiceProvider extends ServiceProvider
          * ---------------------------
          */
         $this->publishes([
-            __DIR__ . '/config/shift-code-generator.php.php' => config_path('shift-code-generator.php'),
+            __DIR__ . '/config/shift-code-generator.php' => config_path('shift-code-generator.php'),
         ], 'config');
 
         /**
