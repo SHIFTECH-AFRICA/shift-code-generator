@@ -17,6 +17,13 @@ class ShiftCodeGenerator extends Model
      */
     public $incrementing = false;
 
+    /**
+     * type of auto-increment
+     *
+     * @string
+     */
+    protected $keyType = 'string';
+
     //set attributes
     protected $guarded = [];
 }
