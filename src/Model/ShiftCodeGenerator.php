@@ -3,12 +3,13 @@
 
 namespace ShiftechAfrica\CodeGenerator\Model;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use ShiftechAfrica\CodeGenerator\Traits\Uuids;
 
 class ShiftCodeGenerator extends Model
 {
-    use Uuids;
+    use Uuids, HasFactory;
 
     /**
      * Indicates if the IDs are auto-incrementing.
