@@ -12,9 +12,10 @@ trait CheckList
      * ---------------------------------
      * @return string
      */
-    private function get_date_letter_representative()
+    private function get_date_letter_representative(): string
     {
         $date = date('d');
+
         if ($date == 1) {
             return '1';
         }
@@ -116,9 +117,10 @@ trait CheckList
      * -----------------------------------
      * @return string
      */
-    private function get_month_letter_representative()
+    private function get_month_letter_representative(): string
     {
         $monthName = now()->monthName;
+
         if ($monthName === 'January') {
             return 'A';
         } elseif ($monthName === 'February') {
@@ -153,7 +155,7 @@ trait CheckList
      * -------------------------
      * @return int
      */
-    private function get_number_of_years()
+    private function get_number_of_years(): int
     {
         if (config('shift-code-generator.use_db')) {
             $to = now()->createFromFormat('Y-m-d H:s:i', ShiftCodeGenerator::query()->first()->created_at);

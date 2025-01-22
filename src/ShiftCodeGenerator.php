@@ -19,7 +19,7 @@ class ShiftCodeGenerator
      * @param int $codeLength
      * @return string
      */
-    public function generate(int $codeLength = 7)
+    public function generate(int $codeLength = 7): string
     {
         // fetch the year
         $years = $this->get_number_of_years();

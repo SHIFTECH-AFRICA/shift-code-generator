@@ -103,9 +103,9 @@ How to generate the code...
 
 ## Version Guidance
 
-| Version | Status     | Packagist           | Namespace    | Repo                |
-|---------|------------|---------------------|--------------|---------------------|
-| 1.x     | Latest     | `shiftechafrica/shift-code-generator` | `ShiftechAfrica\CodeGenerator` | [v1.4.7](https://github.com/SHIFTECH-AFRICA/shift-code-generator/releases/tag/v1.4.7)|
+| Version | Status     | Packagist           | Namespace    | Repo                                                                                  |
+|---------|------------|---------------------|--------------|---------------------------------------------------------------------------------------|
+| 1.x     | Latest     | `shiftechafrica/shift-code-generator` | `ShiftechAfrica\CodeGenerator` | [v1.5.2](https://github.com/SHIFTECH-AFRICA/shift-code-generator/releases/tag/v1.5.2) |
 
 [shift-code-generator-repo]: https://github.com/SHIFTECH-AFRICA/shift-code-generator.git
 

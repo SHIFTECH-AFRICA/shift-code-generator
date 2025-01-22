@@ -14,7 +14,7 @@ class ShiftCodeGeneratorServiceProvider extends ServiceProvider
      * ----------------------------------------------------
      * @return void
      */
-    public function boot()
+    public function boot(): void
     {
         /**
          * ------------------------------
@@ -67,7 +67,7 @@ class ShiftCodeGeneratorServiceProvider extends ServiceProvider
      * ------------------------------
      * @return void
      */
-    public function register()
+    public function register(): void
     {
         //
     }

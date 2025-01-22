@@ -2,6 +2,7 @@
 
 namespace ShiftechAfrica\CodeGenerator\Traits;
 
+use Exception;
 use Webpatser\Uuid\Uuid;
 
 trait Uuids
@@ -9,8 +10,9 @@ trait Uuids
     /**
      * Boot function from laravel.
      * @return void
+     * @throws Exception
      */
-    protected static function boot()
+    protected static function boot(): void
     {
         parent::boot();
 

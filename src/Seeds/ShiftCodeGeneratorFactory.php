@@ -16,7 +16,7 @@ class ShiftCodeGeneratorFactory extends Seeder
      * @return void
      * @throws Exception
      */
-    public function run()
+    public function run(): void
     {
         DB::table((new ShiftCodeGenerator())->getTable())->insert([
             'id' => Uuid::generate()->string,
