@@ -143,7 +143,7 @@ public function generateCode()
 ## 🛡️ Security Vulnerabilities
 
 If you discover a security vulnerability, please contact:  
-📧 **[bugs@shiftechafrica.com](mailto:bugs@shiftechafrica.com)**
+📧 **[Bugs](mailto:bugs@shiftech.co.ke)**
 
 ---
 
